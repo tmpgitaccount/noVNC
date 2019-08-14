@@ -33,7 +33,7 @@ usage() {
 NAME="$(basename $0)"
 REAL_NAME="$(readlink -f $0)"
 HERE="$(cd "$(dirname "$REAL_NAME")" && pwd)"
-PORT="6080"
+PORT="8080"
 VNC_DEST="localhost:5900"
 CERT=""
 KEY=""
